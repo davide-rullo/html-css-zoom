@@ -55,12 +55,29 @@ footer{
 .container{
     width: 80%;
     margin: auto;
+
+ 
+}
+
+.row{
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
- 
+}
+
+.card{
+    position: relative;
 }
 
 img{
     padding-bottom: 5px;
+   
+}
+
+.profile{
+    position: absolute;
+    bottom: 5px;
+    background-color: #4a4a4a79;
+    padding: 5px;
+    font-size: 12px;
 }
